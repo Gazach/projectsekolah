@@ -8,7 +8,7 @@
   <title>SMK Teratai Putih global 4</title>
 </head>
 <header>
-  <nav>
+  <nav id="navbar">
     <ul>
       <img src="logoyayasan.png" alt="">
       <li><a href="index.html"><b>Home</b></a></li>
@@ -19,7 +19,7 @@
   </nav>
 </header>
 <body>
-<section class="video">
+<section class="video" id="video">
   <video controls autoplay>
     <source src="Multimedia/Mars Teratai Putih Global Schools (teks dan instrumen).mp4" type="">
   </video>
@@ -58,5 +58,22 @@ Peserta didik mempelajari ilmu kendaraan ringan agar mampu melaksanakan perawata
 <footer>
   <p><b>Copyright &copy; Gaza RPL</b></p>
 </footer>
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var video = document.getElementById("video");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+    video.classList.add("videosticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 </body>
 </html>

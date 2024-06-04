@@ -11,13 +11,17 @@ nav >ul> img{
 	height: 50px;
 	padding-top: 5px;
 }
+.sticky {
+	position: fixed;
+	width: 100%;
+  }
 nav{
 	margin-top: -16px;
 	height: 60px;
 	background-color: #dfdc5d;
 }
 li{
-	padding: 21px;
+	padding: 20.5px;
 }
 li:hover{
 	background-color: #d4d242;
@@ -33,15 +37,55 @@ p{
 	text-align: justify;
 	text-align: center;
 }
-.listkontak > ul{
-	list-style: square;
-	display: block;
-}
 .listkontak{
 	width: 40%;
 	margin-left: auto;
 	margin-right: auto ;
+	display: flex;
+	flex-direction: column;
+}
+button{
+	height: 40px;
+	border: none;
+	margin: 10px;
+	background-color: #efec4c;
+	border-radius: 40px;
+}
+button:hover{
+	background-color: #d4d242;
 }
 footer > p{
 	text-align: center;
+}
+hr{
+	margin-top: 50px;
+}
+#linktowa:hover{
+	cursor: pointer;
+}
+.container{
+	display: flex;
+	width:100%;
+	margin-top: 30px;
+}
+.map{
+	width: 50%;
+	align-items: center;
+}
+.map > div {
+	background-color: rgb(244, 248, 229);
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	border-radius: 20px;
+}
+.kontaks{
+	width: 50%;
+}
+iframe{
+	height: 200px;
+	width: 400px;
 }

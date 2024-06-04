@@ -16,8 +16,14 @@ nav{
 	height: 60px;
 	background-color: #dfdc5d;
 }
+.sticky {
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	z-index: 1;
+  }
 li{
-	padding: 21px;
+	padding: 20.5px;
 }
 li:hover{
 	background-color: #d4d242;
@@ -30,15 +36,25 @@ a{
  text-align: center;
  padding: 20px;
  background: #dad9c3;
+ background-image: url(image/FotoFasilitas/gerbangutama.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+}
+.videosticky{
+	padding-top: 80px;
 }
 .Welcomeboard > img{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	margin-bottom: 50px;
+
 }
 .Welcomeboard > h1{
 	text-align: center;
+	padding-top: 20px;
 }
 .Katapengantar{
 	display: flex;

@@ -17,7 +17,7 @@ nav{
 	background-color: #dfdc5d;
 }
 li{
-	padding: 21px;
+	padding: 20.5px;
 }
 li:hover{
 	background-color: #d4d242;
@@ -28,6 +28,7 @@ a{
 }
 .Headers > div > a{
 	color: black;
+
 	margin-left: 10px;
 	margin-right: 10px;
 	font-size: larger;
@@ -49,7 +50,6 @@ a{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin-top: 20px;
-	margin-bottom: 40px;
 }
 .jurusan1, .jurusan2, .jurusan3 , .jurusan4{
 	display: flex;
@@ -61,7 +61,7 @@ a{
 	margin-bottom: 20px;
 }
 .foto > img{
-	height: 400px;
+	height: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -93,7 +93,7 @@ video{
 }
 .tombol {
 	text-align: center;
-	margin-top: 40px;
+	padding-top: 40px;
 	margin-bottom: 40px;
 }
 .fasilitastombol > h3{
@@ -101,4 +101,19 @@ video{
 }
 footer > p{
 	text-align: center;
+}
+.listjurusan > a{
+	background-color: #e3e170;
+	padding: 8px;
+	border-radius: 5px;
+}
+.listjurusan > a:hover{
+	background-color: #b4b139;
+	color: white;
+}
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }

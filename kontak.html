@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logoyayasan.png">
     <link rel="stylesheet" href="styles4.css">
+    
     <title>SMK Teratai Putih global 4</title>
 </head>
 <header>
@@ -21,17 +22,29 @@
 <body>
 <h2>Kontak kami!</h2>
 <p>Untuk informasi lebih lanjut tentang pendaftaran di SMK Teratai putih Global 4 <br>bisa mengirim pesan kepada kami melalui kontak yang tersedia!</p>
-
-<h2>Contact person :</h2>
-<div class="listkontak">
-    <ul>
-        <li>Bu Yuli : 0812-8199-9191</li>
-        <li>Bpk Arifin : 0811-1986-939</li>
-        <li>Bu Kartina : 0812-8941-3645</li>
-    </ul>
+<div class="container">
+  <div class="map">
+    <div>
+      <h2>Lokasi kami berada!</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6844489755567!2d107.03025001022829!3d-6.305125361678633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6991f40f7f8357%3A0x57961b0fbd399def!2sSMK%20TERATAI%20PUTIH%20GLOBAL%204%20BEKASI!5e0!3m2!1sid!2sid!4v1717174814038!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="kontaks">
+    <h2>Contact person :</h2>
+    <div class="listkontak">
+            <button id="linktowa" onclick="openLink()">Bu Yuli : 0812-8199-9191</button>
+            <button id="linktowa" onclick="openLink()">Bpk Arifin : 0811-1986-939</button>
+            <button id="linktowa" onclick="openLink()">Bu Kartina : 0812-8941-3645</button>
+     
+    </div>
     <p><b>Note</b> : kontak bisa melalui whatsapp</p>
+  </div>
 </div>
-
+<script>
+    function openLink() {
+      window.location.href  = "https://wa.me/6285883316215";
+    }
+</script>
 </body>
 <hr>
 <footer>

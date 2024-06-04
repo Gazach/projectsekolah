@@ -12,17 +12,21 @@ nav >ul> img{
 	padding-top: 5px;
 }
 nav{
-	margin-top: -16px;
+
 	height: 60px;
 	background-color: #dfdc5d;
 }
 li{
-	padding: 21px;
+	padding: 18px;
 }
 li:hover{
 	background-color: #d4d242;
 }
 a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
 	color: white;
 	text-decoration: none;
 }
@@ -39,14 +43,19 @@ a{
 	background-color: #dad9ad;
 	border-radius: 10px;
 }
-.gambar > img{
-	height: 300px;
-	margin-left: 100px;
+img{
 	border-radius: 10px;
+
 }
-.gambar > h3{
-	font-size: 27px;
+h5{
+	text-align: center;
+}
+h3{
+	font-size: 20px;
 	margin-left: 30px;
+}
+h2{
+	margin-bottom: 30px;
 }
 .caritahulebihlanjut > h3{
 	text-align: center;
